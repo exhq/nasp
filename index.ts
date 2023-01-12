@@ -3,6 +3,7 @@ import { Devs } from "@utils/constants";
 import definePlugin from "@utils/types";
 import { _handlePreSend } from '../../api/MessageEvents';
 import { handlecommands } from "./handling";
+import messageActions from "plugins/messageActions";
 
 
 
